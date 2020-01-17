@@ -1,0 +1,6 @@
+-   id: pykwalify
+    name: YAML Schema Validator
+    entry: pykwalify
+    language: python
+    args: ['-s', '.schema.yaml', '-d']
+    files: 'template\.(yml|yaml)$'
